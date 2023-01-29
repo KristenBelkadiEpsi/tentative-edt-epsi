@@ -222,22 +222,6 @@ class _MyHomePageState extends State<MyHomePage> {
         .map((e) => e.text));
     setState(() {
       _liste = [];
-      // _liste.add(TableRow(children: [
-      //   AutoSizeText(
-      //
-      //     "Jour",
-      //     style: TextStyle(fontSize: _taillePolice),
-      //     maxLines: 1,
-      //   ),
-      //   AutoSizeText("horaire",
-      //       style: TextStyle(fontSize: _taillePolice), maxLines: 1),
-      //   AutoSizeText("nom",
-      //       style: TextStyle(fontSize: _taillePolice), maxLines: 1),
-      //   AutoSizeText("salle",
-      //       style: TextStyle(fontSize: _taillePolice), maxLines: 1),
-      //   AutoSizeText("professeur",
-      //       style: TextStyle(fontSize: _taillePolice), maxLines: 1)
-      // ]));
       for (int i = 0; i < tableauNoms.length; i++) {
         _liste.add(TableRow(children: [
           Padding(
