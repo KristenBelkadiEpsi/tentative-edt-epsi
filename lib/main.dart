@@ -148,7 +148,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
   List<TableRow> _liste = [];
   TextEditingController _controleurIdentifiant = TextEditingController();
-  double _taillePolice = 6.0;
+  double _taillePolice = 5.0;
   DateTime _date = DateTime.now();
 
   void _incrementCounter() {

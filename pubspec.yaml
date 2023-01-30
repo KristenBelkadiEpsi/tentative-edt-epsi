@@ -39,6 +39,7 @@ dependencies:
   html: ^0.15.1
   xpath_selector: ^3.0.2
   auto_size_text: ^3.0.0
+  flutter_easyloading: ^3.0.5
 
 dev_dependencies:
   flutter_test:
